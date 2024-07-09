@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class=" bg-[#cfcfcf] flex flex-col h-screen">
+
+        <div class=" flex h-52 w-screen justify-center items-center flex-wrap">
+            <h1 class="text-3xl w-full text-center">1</h1>
+            <div class="container p-5 bg-blue-500 w-52  flex flex-col gap-4">
+                <div class="color div1 w-full h-20 bg-red-500"></div>
+                <button id="btn" class="btns bg-yellow-500">Change</button>
+            </div>
+        </div>
+        <div class=" flex h-52 w-screen justify-center items-center flex-wrap">
+            <h1 class="text-3xl w-full text-center">2</h1>
+            <div id="container" class=" p-5 bg-blue-500 w-52  flex flex-col gap-4">
+                <div class="text w-full h-20 bg-red-500" id="miDiv"></div>
+                <input type="text" id="miInput">
+            </div>
+        </div>
+
+        <div class=" flex h-52 w-screen justify-center items-center flex-wrap">
+            <h1 class="text-3xl w-full text-center">3</h1>
+            
+                <form action="" id="form" class="container p-5 bg-blue-500 w-64  flex flex-col gap-4">
+                    <div id="formulario">
+                    <label for="inputEje3.1"> <strong>Estatura</strong>
+                        <p>En centimetros</p>
+                        <input type="text" id="estatura" class="input text-center">
+                    </label>
+                    <label for="inputEje3.2"> <strong>Peso</strong>
+                        <p>En kilogramos</p>
+                        <input type="text" id="peso" class="input text-center">
+                    </label>
+                </div>
+                <button id="btnEje3" class="btns bg-yellow-500">Change</button>
+
+                </form>
+
+        </div>
+
+        <div class=" flex h-52 w-screen mt-16 justify-center items-center flex-wrap">
+            <h1 class="text-3xl w-full text-center">3</h1>
+            
+                <form action="" id="form2" class="container p-5 bg-blue-500 w-64  flex flex-col gap-4">
+                    <div id="formularioPlata">
+                    <label for="local"> <strong>Monto moneda local</strong>
+                        <p>Sin comas ni puntos</p>
+                        <input type="text" id="local" class="text-center">
+                    </label>
+                    <label for="dolares"> <strong>Monto en dolares</strong>
+                        <p>Sin comas ni puntos</p>
+                        <input type="text" id="dolares" class=" text-center">
+                    </label>
+                </div>
+                <button id="btnEje3" class="btns bg-yellow-500">Change</button>
+                <div id="resultadoo"></div>
+                </form>
+
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
